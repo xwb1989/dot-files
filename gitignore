@@ -1,0 +1,21 @@
+/*compiled files*/
+*.class
+*.pyc
+*.out
+bin/
+target/
+_site/
+
+/*archives */
+*.gz
+*.zip
+*.tar
+
+/* system files */
+.DS_Store
+*~
+*.swp
+*sublime-workspace
+*.idea
+*.iml
+dependency-reduced-pom.xml

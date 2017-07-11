@@ -1,0 +1,19 @@
+[core]
+	excludesfile = ~/.gitignore
+	editor = /Applications/MacVim.app/Contents/MacOS/vim
+	autocrlf = false
+[user]
+	name = Wenbin Xiao
+	email = xwb1989@gmail.com
+[merge]
+	tool = vimdiff
+[alias]
+	last = log -1 HEAD
+    co = checkout
+    cm = commit -m
+    ss = status
+    ll = ls-files
+[push]
+	default = current
+[pull]
+	rebase = true
