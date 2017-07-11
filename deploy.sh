@@ -1,6 +1,11 @@
 #!/bin/bash
 ./undeploy.sh
 
+# install brew if it's MacOS
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
+
 git submodule update --init
 vim +PluginInstall +qall
 
